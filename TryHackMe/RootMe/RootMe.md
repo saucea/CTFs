@@ -56,10 +56,9 @@ Challenge Description: A ctf for beginners, can you root me?
 
   ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/First_Flag.PNG>)
 
-  LINKS:
-  
-    https://github.com/pentestmonkey/php-reverse-shell
-    https://vulp3cula.gitbook.io/hackers-grimoire/exploitation/web-application/file-upload-bypass
+    LINKS:
+      https://github.com/pentestmonkey/php-reverse-shell
+      https://vulp3cula.gitbook.io/hackers-grimoire/exploitation/web-application/file-upload-bypass
 
 **4. <Search for files with SUID permission, which file is weird?> / Answer: /usr/bin/python**
   
@@ -77,10 +76,9 @@ Challenge Description: A ctf for beginners, can you root me?
 
   ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Root.PNG>)
 
-  LINKS: 
-    
-    https://gtfobins.github.io/gtfobins/python/
-    https://docs.oracle.com/cd/E19683-01/816-4883/6mb2joatb/index.html
+    LINKS: 
+      https://gtfobins.github.io/gtfobins/python/
+      https://docs.oracle.com/cd/E19683-01/816-4883/6mb2joatb/index.html
 
   
 ### Reflections
