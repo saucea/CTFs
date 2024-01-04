@@ -1,6 +1,6 @@
-# TryHackme CTF
+# TryHackme CTFs
 
-Writeups for TryHackme CTF: [TryHackMe](<https://www.tryhackme.com>)
+Writeups for TryHackme CTFs: [TryHackMe](<https://www.tryhackme.com>)
 
 ## Categories
 
