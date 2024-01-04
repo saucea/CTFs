@@ -11,29 +11,29 @@ Challenge Description: A ctf for beginners, can you root me?
   
   By running a simple nmap scan, I can see the ports 22 and 80 are running ssh and http respectively.
   
-  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Ports.PNG>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Screenshots/Ports.PNG>)
 
 
 **2. <What version of Apache is running?> / Answer: 2.4.29**
   
   I ran a similar scan but adding the -sV flag for version detection.
 
-  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Apache_Version.PNG>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Screenshots/Apache_Version.PNG>)
 
 
 **3. <What service is running on port 22?> / Answer: ssh**
   
   From my previous scan, ssh is detected on port 22.
 
-  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Service.PNG>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Screenshots/Service.PNG>)
 
 **4. <What is the hidden directory?> / Answer: /panel/**
   
   I ran gobuster with a wordlist of common directories names. Two interesting directories seem of use (/panel and /uploads). Seems like a reverse shell can be uploaded to /panel.
 
-  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Directories.PNG>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Screenshots/Directories.PNG>)
 
-  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Panel_Directory.PNG>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Screenshots/Panel_Directory.PNG>)
 
 
 **4. <Find a form to upload and get a reverse shell, and find the flag.> / Answer: THM{y0u_g0t_a_sh3ll}**
@@ -44,7 +44,7 @@ Challenge Description: A ctf for beginners, can you root me?
 
   After trying a few alternate extensions for a php file, .php3 worked.
 
-  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Reverse_Shell_Upload.PNG>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Screenshots/Reverse_Shell_Upload.PNG>)
 
   I could now switch to the /uploads directory that we found using gobuster before. I first setup a netcat server and ran the reverse shell.
 
@@ -54,7 +54,7 @@ Challenge Description: A ctf for beginners, can you root me?
 
   Success!
 
-  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/First_Flag.PNG>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Screenshots/First_Flag.PNG>)
 
     LINKS:
       https://github.com/pentestmonkey/php-reverse-shell
@@ -66,7 +66,7 @@ Challenge Description: A ctf for beginners, can you root me?
 
   Python? Can I use it to escalate to root?
 
-  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Python.PNG>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Screenshots/Python.PNG>)
 
   Looks like we can follow gtfobins for this.
 
@@ -74,7 +74,7 @@ Challenge Description: A ctf for beginners, can you root me?
 
   Flag: THM{pr1v1l3g3_3sc4l4t10n}
 
-  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Root.PNG>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Screenshots/Root.PNG>)
 
     LINKS: 
       https://gtfobins.github.io/gtfobins/python/
