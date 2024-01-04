@@ -8,29 +8,28 @@ A ctf for beginners, can you root me?
 ### Approach
 
 **1. <Scan the machine, how many ports are open?> / Answer: 2**
-  By running a simple nmap scan, I can see the ports 22 and 80 are running ssh and http respectively
+  By running a simple nmap scan, I can see the ports 22 and 80 are running ssh and http respectively.
   
-![img](<image_link>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Ports.PNG>)
 
 
 **2. <What version of Apache is running?> / Answer: 2.4.29**
-  I ran a similar scan but adding the -sV flag for version detection
+  I ran a similar scan but adding the -sV flag for version detection.
 
-![img](<image_link>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Apache_Version.PNG>)
 
 
 **3. <What service is running on port 22?> / Answer: ssh**
-  From my previous scan, ssh is detected on port 22
+  From my previous scan, ssh is detected on port 22.
 
-![img](<image_link>)
-
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Service.PNG>)
 
 **4. <What is the hidden directory?> / Answer: /panel/**
-  I ran gobuster with a wordlist of common directories names. Two interesting directories seem of use (/panel and /uploads). Seems like a reverse shell can be uploaded to /panel
+  I ran gobuster with a wordlist of common directories names. Two interesting directories seem of use (/panel and /uploads). Seems like a reverse shell can be uploaded to /panel.
 
-  ![img](<image_link>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Directories.PNG>)
 
-  ![img](<image_link>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Panel_Directory.PNG>)
 
 
 **4. <Find a form to upload and get a reverse shell, and find the flag.> / Answer: THM{y0u_g0t_a_sh3ll}**
@@ -44,13 +43,13 @@ A ctf for beginners, can you root me?
 
   I'm in!
 
-  It seems that we need to find a file named **user.txt**. Let's run a find command.
+  It seems that we need to find a file named **user.txt**. Let's use the find command.
 
   Success!
 
-  ![img](<image_link>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Reverse_Shell_Upload.PNG>)
 
-  ![img](<image_link>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/First_Flag.PNG>)
 
   LINKS: 
     * https://github.com/pentestmonkey/php-reverse-shell
@@ -61,7 +60,7 @@ A ctf for beginners, can you root me?
 
   Python? Can I use it to escalate to root?
 
-  ![img](<image_link>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Python.PNG>)
 
   Looks like we can follow gtfobins for this.
 
@@ -69,7 +68,7 @@ A ctf for beginners, can you root me?
 
   Flag: THM{pr1v1l3g3_3sc4l4t10n}
 
-  ![img](<image_link>)
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Root.PNG>)
 
   LINKS: 
     * https://gtfobins.github.io/gtfobins/python/
@@ -78,8 +77,8 @@ A ctf for beginners, can you root me?
   
 
 ### Reflections
-<reflections ...>
+Overall, it was good practice. The instructions helped a lot as they served as clues on what to do next.
   
 
 ---
-[Back to home](<link>)
+[Back to home](<https://github.com/saucea/CTFs/blob/main/README.md>)
