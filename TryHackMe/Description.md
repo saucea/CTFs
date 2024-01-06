@@ -6,3 +6,6 @@ Writeups for TryHackme CTFs: [TryHackMe](<https://www.tryhackme.com>)
 
 - RootMe
    - [ ] [RootMe](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/RootMe.md>)
+ 
+- Simple CTF
+   - [ ] [Simple CTF](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Simple%20CTF/Simple%20CTF.md>)
