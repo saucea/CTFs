@@ -9,3 +9,6 @@ Writeups for TryHackme CTFs: [TryHackMe](<https://www.tryhackme.com>)
  
 - Simple CTF
    - [ ] [Simple CTF](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Simple%20CTF/Simple%20CTF.md>)
+ 
+- Lazy Admin
+   - [ ] [Lazy Admin](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Lazy%20Admin/LazyAdmin.md>)
