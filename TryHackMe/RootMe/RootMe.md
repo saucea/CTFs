@@ -36,7 +36,7 @@ Challenge Description: A ctf for beginners, can you root me?
   ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/RootMe/Screenshots/Panel_Directory.PNG>)
 
 
-**4. <Find a form to upload and get a reverse shell, and find the flag.> / Answer: THM{y0u_g0t_a_sh3ll}**
+**5. <Find a form to upload and get a reverse shell, and find the flag.> / Answer: THM{y0u_g0t_a_sh3ll}**
   
   I tried uploading a pre-made PHP Reverse Shell from a github repository but an error appeared that didn't allowed PHP files.
 
@@ -60,7 +60,7 @@ Challenge Description: A ctf for beginners, can you root me?
       https://github.com/pentestmonkey/php-reverse-shell
       https://vulp3cula.gitbook.io/hackers-grimoire/exploitation/web-application/file-upload-bypass
 
-**4. <Search for files with SUID permission, which file is weird?> / Answer: /usr/bin/python**
+**6. <Search for files with SUID permission, which file is weird?> / Answer: /usr/bin/python**
   
   I searched through the files with SUID permission using the find command.
 
