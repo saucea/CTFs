@@ -50,6 +50,8 @@ Challenge Description: Can you exfiltrate the root flag?
   
   ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Wgel%20CTF/Screenshots/root_access.png>)
 
+    LINKS:
+      https://gtfobins.github.io/gtfobins/wget/
 
 ### Reflections
 
