@@ -15,3 +15,6 @@ Writeups for TryHackme CTFs: [TryHackMe](<https://www.tryhackme.com>)
 
 - Wgel CTF
    - [ ] [Wgel CTF](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Wgel%20CTF/WgelCTF.md>)
+
+- Agent Sudo
+   - [ ] [Agent Sudo](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Agent%20Sudo/AgentSudo.md>)
