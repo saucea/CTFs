@@ -57,6 +57,8 @@ Challenge Description: You found a secret server located under the deep sea. You
   ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Agent%20Sudo/Screenshots/binwalk_picture.png>)
   
   And cracked!
+
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Agent%20Sudo/Screenshots/zip_file_password.png>)
   
   We get a new message now with a code.
 
