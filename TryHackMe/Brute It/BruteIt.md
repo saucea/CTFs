@@ -56,7 +56,7 @@ Challenge Description: Learn how to brute, hash cracking and escalate privileges
   ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Brute%20It/Screenshots/hydra_http_post_cracked.png>)
   
     LINKS:
-  	  https://infinitelogins.com/2020/02/22/how-to-brute-force-websites-using-hydra/
+      https://infinitelogins.com/2020/02/22/how-to-brute-force-websites-using-hydra/
 
 **7. <Crack the RSA key you found. What is John's RSA private Key passphrase?> / Answer: rockinroll**
   
@@ -69,7 +69,7 @@ Challenge Description: Learn how to brute, hash cracking and escalate privileges
   ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Brute%20It/Screenshots/ssh2john_cracked.png>)
   
     LINKS:
-  		https://null-byte.wonderhowto.com/how-to/crack-ssh-private-key-passwords-with-john-ripper-0302810/
+  	  https://null-byte.wonderhowto.com/how-to/crack-ssh-private-key-passwords-with-john-ripper-0302810/
     
 **8. <user.txt?> / Answer: THM{a_password_is_not_a_barrier}**
   
@@ -88,15 +88,17 @@ Challenge Description: Learn how to brute, hash cracking and escalate privileges
   ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Brute%20It/Screenshots/sudo_permissions.png>)
   
   First I need to unshadow them and use john to crack the password.
+
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Brute%20It/Screenshots/unshadowed_text.png>)
   
   Cracked and I am now root!
-  
-  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Brute%20It/Screenshots/unshadowed_text.png>)
+
+  ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Brute%20It/Screenshots/unshadowed_text_cracked.png>)
   
   ![img](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Brute%20It/Screenshots/root_access.png>)
   
     LINKS:
-  		https://erev0s.com/blog/cracking-etcshadow-john/
+  	  https://erev0s.com/blog/cracking-etcshadow-john/
   
 **11. <root.txt?> / Answer: THM{pr1v1l3g3_3sc4l4t10n}**
   
