@@ -22,5 +22,8 @@ Writeups for TryHackme CTFs: [TryHackMe](<https://www.tryhackme.com>)
 - Brute It
    - [ ] [Brute It](<https://github.com/saucea/CTFs/blob/main/TryHackMe/Brute%20It/BruteIt.md>)
  
+- OhSINT
+   - [ ] [OhSINT](<https://github.com/saucea/CTFs/blob/main/TryHackMe/OhSINT/OhSINT.md>)
+ 
 ---
 [Back to home](<https://github.com/saucea/CTFs/blob/main/README.md>)
